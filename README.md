@@ -1,4 +1,4 @@
-![Tailkits Astro Theme Cover](./public/tailkits-astro-cover.png)
+<img width="1643" height="518" alt="Frame 1" src="https://github.com/user-attachments/assets/b177b0d8-168a-4dec-9994-ec6eb66d4502" />
 
 # Tailkits Astro
 
