@@ -9,12 +9,12 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.3.4",
-    "@astrojs/sitemap": "^3.5.1",
-    "@tailwindcss/vite": "^4.1.13",
-    "astro": "^5.13.5",
+    "@astrojs/mdx": "^4.3.14",
+    "@astrojs/sitemap": "^3.7.2",
+    "@tailwindcss/vite": "^4.2.4",
+    "astro": "^5.18.1",
     "astro-seo": "^0.8.4",
-    "tailwindcss": "^4.1.13"
+    "tailwindcss": "^4.2.4"
   },
   "packageManager": "pnpm@10.33.2+sha512.a90faf6feeab71ad6c6e57f94e0fe1a12f5dcc22cd754db40ae9593eb6a3e0b6b12e3540218bb37ae083404b1f2ce6db2a4121e979829b4aff94b99f49da1cf8"
 }
