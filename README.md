@@ -9,8 +9,8 @@ The My Quran Tajwid Website is a modern, responsive website built with [Astro](h
 To get started with the project, follow these steps:
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 ## Documentation
