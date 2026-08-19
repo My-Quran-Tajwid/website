@@ -1,3 +1,8 @@
+---
+import { Image } from "astro:assets";
+import bacaScreenshot from "../assets/images/baca-screenshot.png";
+---
+
 <section class="bg-gray-50 lg:pt-16 relative pt-52 lg:pb-16">
   <div
     class="max-w-7xl mx-auto px-4 xl:px-0 grid lg:grid-cols-2 lg:gap-x-20 xl:gap-x-40"
@@ -5,7 +10,7 @@
     <div></div>
     <div class="mt-12 flex flex-col items-start lg:mt-0 mb-8 lg:mb-0">
       <div
-        class="bg-gradient-to-b from-slate-800 to-slate-600 bg-clip-text text-3xl font-semibold text-transparent lg:text-5xl mt-3 lg:mt-4 lg:leading-tight"
+        class="bg-linear-to-b from-slate-800 to-slate-600 bg-clip-text text-3xl font-semibold text-transparent lg:text-5xl mt-3 lg:mt-4 lg:leading-tight"
       >
         Explore Quran on the Web
       </div>
@@ -88,11 +93,11 @@
     </div>
   </div>
   <figure
-    class="absolute left-0 top-0 h-52 w-full overflow-hidden bg-gradient-to-b from-[#FEF7DE] to-[#E0E7F7] lg:h-full lg:w-1/2"
+    class="absolute left-0 top-0 h-52 w-full overflow-hidden bg-linear-to-b from-[#FEF7DE] to-[#E0E7F7] lg:h-full lg:w-1/2"
   >
-    <img
-      class="absolute left-1/2 top-6 h-52 w-11/12 -translate-x-1/2 rounded-md border-4 border-slate-900/5 object-cover object-left-top shadow-[0_2px_10px_0px_rgba(0,0,0,0.15)] sm:h-auto lg:top-16 lg:rounded-xl xl:top-24 transition-opacity duration-300"
-      src="/images/baca-screenshot.png"
+    <Image
+      class="absolute left-1/2 top-6 h-52 w-11/12 -translate-x-1/2 rounded-md border-4 border-slate-900/5 object-cover object-top-left shadow-[0_2px_10px_0px_rgba(0,0,0,0.15)] sm:h-auto lg:top-16 lg:rounded-xl xl:top-24 transition-opacity duration-300"
+      src={bacaScreenshot}
       alt="Features"
       x-transition:enter="transition-opacity duration-300"
       x-transition:enter-start="opacity-0"

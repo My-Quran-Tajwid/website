@@ -1,8 +1,13 @@
+---
+import { Image } from "astro:assets";
+import publisherScreenshot from "../assets/images/quran-publisher-desktop-screenshot.png";
+---
+
 <section class="bg-white pt-12 lg:pt-16 pb-12 lg:pb-16">
   <div class="max-w-7xl mx-auto px-4 xl:px-0 flex flex-col gap-y-6">
     <div class="flex flex-col items-center">
       <div
-        class="bg-gradient-to-b from-slate-800 to-slate-600 bg-clip-text text-3xl font-semibold text-transparent lg:text-5xl mt-8 text-center sm:mx-auto sm:w-2/3 md:w-3/4 lg:mt-9 lg:leading-tight xl:w-3/5"
+        class="bg-linear-to-b from-slate-800 to-slate-600 bg-clip-text text-3xl font-semibold text-transparent lg:text-5xl mt-8 text-center sm:mx-auto sm:w-2/3 md:w-3/4 lg:mt-9 lg:leading-tight xl:w-3/5"
       >
         Discover the Quran Tajwid fonts
       </div>
@@ -36,11 +41,11 @@
       </a>
     </div>
     <figure
-      class="relative h-52 overflow-hidden rounded-xl bg-gradient-to-b from-[#FFEDE9] to-[#F7E7FF] sm:mx-auto sm:w-2/3 md:h-60 md:rounded-2xl lg:mx-4 lg:h-[28rem] lg:w-full lg:rounded-3xl xl:mx-8 xl:h-[37.5rem]"
+      class="relative h-52 overflow-hidden rounded-xl bg-linear-to-b from-[#FFEDE9] to-[#F7E7FF] sm:mx-auto sm:w-2/3 md:h-60 md:rounded-2xl lg:mx-4 lg:h-112 lg:w-full lg:rounded-3xl xl:mx-8 xl:h-150"
     >
-      <img
-        class="absolute left-1/2 top-6 h-52 w-11/12 -translate-x-1/2 rounded-md border-4 border-slate-900/5 object-cover object-left-top shadow-[0_2px_10px_0px_rgba(0,0,0,0.15)] sm:h-auto lg:top-16 lg:rounded-xl xl:top-24 transition-opacity duration-300"
-        src="/images/quran-publisher-desktop-screenshot.png"
+      <Image
+        class="absolute left-1/2 top-6 h-52 w-11/12 -translate-x-1/2 rounded-md border-4 border-slate-900/5 object-cover object-top-left shadow-[0_2px_10px_0px_rgba(0,0,0,0.15)] sm:h-auto lg:top-16 lg:rounded-xl xl:top-24 transition-opacity duration-300"
+        src={publisherScreenshot}
         alt="Browser Mockup"
         x-transition:enter="transition-opacity duration-300"
         x-transition:enter-start="opacity-0"
